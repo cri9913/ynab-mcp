@@ -1,0 +1,24 @@
+{
+  "name": "personal-mcp-for-ynab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local, full-API MCP server for YNAB with Windows DPAPI credentials",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test",
+    "spec:update": "node scripts/update-spec.js",
+    "check": "node scripts/check.js",
+    "smoke": "node scripts/smoke.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.30.0",
+    "ajv": "8.20.0",
+    "ajv-formats": "3.0.1",
+    "zod": "4.3.6"
+  },
+  "devDependencies": {
+    "yaml": "2.9.0"
+  }
+}

@@ -1,0 +1,13 @@
+node_modules/
+.env
+.env.*
+!.env.example
+*.clixml
+*.xml
+*.log
+coverage/
+.opencode/
+opencode.json
+opencode.jsonc
+secrets/
+local-data/
