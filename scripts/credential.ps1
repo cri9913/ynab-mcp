@@ -4,6 +4,8 @@ param(
 )
 
 $ErrorActionPreference = 'Stop'
+# Use only this Windows PowerShell installation's modules, not inherited PowerShell 7 modules.
+$env:PSModulePath = "$PSHOME\Modules"
 $secure = $null
 
 try {

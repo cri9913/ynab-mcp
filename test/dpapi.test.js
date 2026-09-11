@@ -26,6 +26,7 @@ test('Windows DPAPI credentials use isolated fabricated fixtures', {
       join(env.SystemRoot, 'System32', 'WindowsPowerShell', 'v1.0', 'powershell.exe'),
       ['-NoProfile', '-NonInteractive', '-Command', `
 $ErrorActionPreference = 'Stop'
+$env:PSModulePath = "$PSHOME/Modules"
 $secure = ConvertTo-SecureString -String $env:YNAB_TEST_TOKEN -AsPlainText -Force
 try {
     $secure | Export-Clixml -LiteralPath $env:YNAB_SECRET_PATH
