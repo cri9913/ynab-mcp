@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "description": "Local, full-API MCP server for YNAB with Windows DPAPI credentials",
+  "license": "MIT",
+  "author": "cri9913",
+  "repository": { "type": "git", "url": "git+https://github.com/cri9913/ynab-mcp.git" },
+  "bugs": { "url": "https://github.com/cri9913/ynab-mcp/issues" },
+  "homepage": "https://github.com/cri9913/ynab-mcp#readme",
   "type": "module",
   "engines": { "node": ">=22" },
   "scripts": {
