@@ -150,3 +150,7 @@ npm run check
 Review upstream schema diffs, operation counts, security annotations, and new business rules before committing. Tests intentionally pin the known operation count. No legacy `/budgets` aliases are duplicated; supported modern `/plans` operations provide the full current API surface.
 
 See [the API and SDK review](docs/api-review.md) for documentation findings, supported libraries, existing MCP comparisons, legal/privacy considerations, and sources. YNAB support: `api@ynab.com`; status: [ynabstatus.com](https://ynabstatus.com).
+
+## License
+
+[MIT](LICENSE).
