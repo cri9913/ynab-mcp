@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="240" viewBox="0 0 960 240" role="img" aria-labelledby="t">
+  <title id="t">MCP for YNAB</title>
+  <rect width="960" height="240" fill="#0f172a"/>
+  <rect x="48" y="48" width="144" height="144" rx="24" fill="#1e293b" stroke="#38bdf8" stroke-width="4"/>
+  <path d="M84 156V84l36 44 36-44v72" fill="none" stroke="#38bdf8" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="228" y="116" font-family="Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="#f8fafc">MCP for YNAB</text>
+  <text x="228" y="164" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#94a3b8">44 YNAB API operations as local stdio tools</text>
+</svg>
